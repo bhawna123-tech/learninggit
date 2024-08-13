@@ -73,6 +73,9 @@ public class LoginPage extends BaseTest {
 		driver.findElement(By.xpath(Constant.payNow_Btn)).click();
 		driver.findElement(By.xpath(Constant.bookNowPayLater_Btn)).click();
 		Thread.sleep(5000);
+		System.out.println("New Project");
+		System.out.println("New Project1");
+		System.out.println("New Project2");
 
 	}
 }
